@@ -23,7 +23,7 @@
 	"mapObject.object-pack.central-warehouse.warehouse.centralWarehouse.onVisited" : "{中央仓库}\r\n\r\n仓库的主人道歉道：“对不起，领主，我们这里已经空了。请下周再来！”",
 	"mapObject.object-pack.central-warehouse.warehouse.centralWarehouse.rewards.0" : "{中央仓库}\r\n\r\n仓库的主人赶忙告诉你：“领主，我已经为您从附近的生产点收集了所有资源。请下周再来领取新的一批吧！”",
 	"mapObject.object-pack.elemental-nodes.airNode.airNode.description" : "（+20%的气系魔法伤害，每位英雄限一次）",
-	"mapObject.object-pack.elemental-nodes.airNode.airNode.name" : "Air Node",
+	"mapObject.object-pack.elemental-nodes.airNode.airNode.name" : "空气节点",
 	"mapObject.object-pack.elemental-nodes.airNode.airNode.onVisited" : "{空气节点}\r\n\r\n你已经访问过这个节点",
 	"mapObject.object-pack.elemental-nodes.airNode.airNode.rewards.0" : "{空气节点}\r\n\r\n你在岩石之中发现了一个由闪耀的水晶形成的魔法节点。你从中吸取了力量，意识到你的气系魔法将变得更加强大。",
 	"mapObject.object-pack.elemental-nodes.cosmosNode.cosmosNode.description" : "（+20%的所有魔法伤害，每位英雄限一次）",
@@ -43,7 +43,7 @@
 	"mapObject.object-pack.elemental-nodes.waterNode.waterNode.name" : "流水节点",
 	"mapObject.object-pack.elemental-nodes.waterNode.waterNode.onVisited" : "{流水节点}\r\n\r\n你已经访问过这个节点",
 	"mapObject.object-pack.elemental-nodes.waterNode.waterNode.rewards.0" : "{流水节点}\r\n\r\nY你在岩石之中发现了一个由闪耀的水晶形成的魔法节点。你从中吸取了力量，意识到你的水系魔法将变得更加强大。",
-	"mapObject.object-pack.golem-factory.creatureGeneratorCommon.golemFactoryNormal.name" : "Golem Factory",
+	"mapObject.object-pack.golem-factory.creatureGeneratorCommon.golemFactoryNormal.name" : "魔像工厂",
 	"object.object-pack.central-warehouse.warehouse.name" : "中央仓库",
 	"object.object-pack.elemental-nodes.airNode.name" : "空气节点",
 	"object.object-pack.elemental-nodes.cosmosNode.name" : "宇宙节点",
@@ -71,8 +71,8 @@
 	"object.object-pack.wyrmsun-boats.boat.wyrmsunBoat_mapWagon.name" : "货车",
 	"object.wyrmsun-boats.boat.wyrmsunBoat_mapBattleshipH.name" : "战船",
 	"object.wyrmsun-boats.boat.wyrmsunBoat_mapDwarvenShip.name" : "船只",
-	"road.object-pack.modern_roads-mod.asphaltRoad.name" : "Asphalt Road",
-	"road.object-pack.modern_roads-mod.autobannRoad.name" : "Highway",
-	"road.object-pack.modern_roads-mod.railRoad.name" : "Railroad",
-	"road.object-pack.modern_roads-mod.railRoad2.name" : "Railroad"
+	"road.object-pack.modern_roads-mod.asphaltRoad.name" : "沥青路",
+	"road.object-pack.modern_roads-mod.autobannRoad.name" : "公路",
+	"road.object-pack.modern_roads-mod.railRoad.name" : "铁路",
+	"road.object-pack.modern_roads-mod.railRoad2.name" : "铁路"
 }

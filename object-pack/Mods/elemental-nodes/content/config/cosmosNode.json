@@ -1,70 +1,77 @@
 {
 	"cosmosNode" : {
 		"name" : "Cosmos Node",
-		"handler": "configurable",
+		"handler" : "configurable",
 		"types" : {
-			"cosmosNode" :
-			{
+			"cosmosNode" : {
 				"name" : "Cosmos Node",
 				"rmg" : {
-					"value"		: 14000,
-					"rarity"	: 25,
+					"value" : 14000,
+					"rarity" : 25,
 					"mapLimit" : 50
 				},
 				"sounds" : {
-					"ambient" : ["LOOPSHRIN"],
-					"visit" : ["TEMPLE"]
+					"ambient" : [
+						"LOOPSHRIN"
+					],
+					"visit" : [
+						"TEMPLE"
+					]
 				},
 				"description" : "(+20% spell damage for every magic school once per hero)",
-				"rewards" :
-				[	
+				"rewards" : [
 					{
-						"bonuses" :
-						[
-                            {
-                                "type" : "SPELL_DAMAGE",
+						"bonuses" : [
+							{
+								"type" : "SPELL_DAMAGE",
 								"subtype" : "spellSchool.water",
-                                "val" : 20,
-                                "valueType" : "BASE_NUMBER",
-                                "duration" : "PERMANENT"
-                            },
+								"val" : 20,
+								"valueType" : "BASE_NUMBER",
+								"duration" : "PERMANENT"
+							},
 							{
-                                "type" : "SPELL_DAMAGE",
+								"type" : "SPELL_DAMAGE",
 								"subtype" : "spellSchool.fire",
-                                "val" : 20,
-                                "valueType" : "BASE_NUMBER",
-                                "duration" : "PERMANENT"
-                            },
+								"val" : 20,
+								"valueType" : "BASE_NUMBER",
+								"duration" : "PERMANENT"
+							},
 							{
-                                "type" : "SPELL_DAMAGE",
+								"type" : "SPELL_DAMAGE",
 								"subtype" : "spellSchool.earth",
-                                "val" : 20,
-                                "valueType" : "BASE_NUMBER",
-                                "duration" : "PERMANENT"
-                            },
+								"val" : 20,
+								"valueType" : "BASE_NUMBER",
+								"duration" : "PERMANENT"
+							},
 							{
-                                "type" : "SPELL_DAMAGE",
+								"type" : "SPELL_DAMAGE",
 								"subtype" : "spellSchool.air",
-                                "val" : 20,
-                                "valueType" : "BASE_NUMBER",
-                                "duration" : "PERMANENT"
-                            }
+								"val" : 20,
+								"valueType" : "BASE_NUMBER",
+								"duration" : "PERMANENT"
+							}
 						],
-						"message": "{Cosmos Node}\r\n\r\nYou come across a sculpted crystal floating above the rocks, which appears to be a node of cosmic magic. You drain the power from it, realizing that all your spells will now be more potent."
+						"message" : "{Cosmos Node}\r\n\r\nYou come across a sculpted crystal floating above the rocks, which appears to be a node of cosmic magic. You drain the power from it, realizing that all your spells will now be more potent."
 					}
 				],
-				"onVisitedMessage": "{Cosmos Node}\r\n\r\nYou already visited that node",
+				"onVisitedMessage" : "{Cosmos Node}\r\n\r\nYou already visited that node",
 				"visitMode" : "hero",
-				"templates" :
-				{
-					"default" :
-					{
-						"animation" : "tpob_drc", 
-						"mask" : [ "VVV", "BBB", "BAB"], 
-						"visitableFrom" : [ "---", "+++", "+++" ]
+				"templates" : {
+					"default" : {
+						"animation" : "tpob_drc",
+						"mask" : [
+							"VVV",
+							"BBB",
+							"BAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
 					}
 				}
 			}
 		}
-	}		
+	}
 }

@@ -7,18 +7,24 @@
 	"modType" : "Objects",
 	"name" : "Abaddon Column",
 	"version" : "1.03",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.2.0"
-	},	
-	"changelog" :
-    	{
-		"1.00"   : [ "Initial release" ],
-		"1.01"   : [ "Removed yellow flag from def" ],
-		"1.02"   : [ "Update to vcmi-1.2 format" ],
-		"1.03"   : [ "Added Czech translation by George King" ]
-    	},
- 	"chinese" : {
+	},
+	"changelog" : {
+		"1.00" : [
+			"Initial release"
+		],
+		"1.01" : [
+			"Removed yellow flag from def"
+		],
+		"1.02" : [
+			"Update to vcmi-1.2 format"
+		],
+		"1.03" : [
+			"Added Czech translation by George King"
+		]
+	},
+	"chinese" : {
 		"name" : "亚巴顿之柱",
 		"description" : "带有巨大奖励的新生物宝屋，但是进入前确保你有足够的实力。"
 	},
@@ -26,14 +32,12 @@
 		"name" : "Sloup zatracení",
 		"description" : "Sloup zatracení, temný a prastarý monument, vyzařuje strašlivou auru zkázy. Opojný příslib moci a odměn čeká na ty, kdo se odváží vstoupit, ale démonické síly uvnitř budou chránit svá tajemství až do posledního dechu. Opravdu jsi připraven čelit temnotě?"
 	},
-	"creatures" :
-	[
+	"creatures" : [
 		"config/familiarMinion",
 		"config/magogMinion",
 		"config/powerLichBoss"
 	],
-	"objects" :
-    [ 
+	"objects" : [
 		"config/abaddonColumn"
-    ]	
+	]
 }

@@ -1,12 +1,12 @@
 {
-    "name" : "Golem Factory normal dwelling",
-    "description" : "Mod places standard Golem dwelling at random maps and offers only Iron Stone Golems at special golem dwellings",
+	"name" : "Golem Factory normal dwelling",
+	"description" : "Mod places standard Golem dwelling at random maps and offers only Iron Stone Golems at special golem dwellings",
 	"modType" : "Objects",
-    "version" : "0.0.1",
-    "author" : "Noname",
-    "contact" : "none",
+	"version" : "0.0.1",
+	"author" : "Noname",
+	"contact" : "none",
 	"keepDisabled" : true,
- 	"chinese" : {
+	"chinese" : {
 		"name" : "魔像工厂普通巢穴",
 		"description" : "该模组将在随机地图上放置标准的魔像巢穴，仅在特殊的魔像巢穴里提供铁人和石人。"
 	},
@@ -14,8 +14,7 @@
 		"name" : "Továrna na golemy",
 		"description" : "Tato modifikace přidává na náhodné mapy továrnu na golemy, kde lze majímat kamenné golemy."
 	},
-	"objects":
-	[
+	"objects" : [
 		"config/golemFactories.json"
 	]
 }

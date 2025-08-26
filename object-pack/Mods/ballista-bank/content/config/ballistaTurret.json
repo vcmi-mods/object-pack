@@ -1,89 +1,88 @@
 {
-	"ballistaTurret" :
-	{
+	"ballistaTurret" : {
 		"special" : true,
-		"advMapAmount" : {"max" : 1, "min" : 1},
+		"advMapAmount" : {
+			"max" : 1,
+			"min" : 1
+		},
 		"aiValue" : 623,
 		"attack" : 15,
-		"cost" : { "gold" : 2500 },
-		"damage" : {"max" : 18, "min" : 12},
+		"cost" : {
+			"gold" : 2500
+		},
+		"damage" : {
+			"max" : 18,
+			"min" : 12
+		},
 		"defense" : 15,
 		"faction" : "neutral",
 		"fightValue" : 600,
 		"growth" : 0,
 		"hitPoints" : 250,
-        "doubleWide" : true,
+		"doubleWide" : true,
 		"level" : 5,
 		"shots" : 12,
 		"speed" : 0,
-		"name" : { "plural" : "Ballistas", "singular" : "Ballista" },
-		"abilities":
-		{
-			
-			"siegeWeapon" :
-			{
+		"name" : {
+			"plural" : "Ballistas",
+			"singular" : "Ballista"
+		},
+		"abilities" : {
+			"siegeWeapon" : {
 				"type" : "NON_LIVING"
-			},			
-			"noMelee" :
-			{
+			},
+			"noMelee" : {
 				"type" : "GENERAL_ATTACK_REDUCTION",
 				"val" : 100
-			},				
-			"noRetaliations" :
-			{
+			},
+			"noRetaliations" : {
 				"type" : "NO_RETALIATION"
 			},
-			"blocksRetaliations" :
-			{
+			"blocksRetaliations" : {
 				"type" : "BLOCKS_RETALIATION"
-			},			
-			"twoShots" :
-			{
+			},
+			"twoShots" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
-				"effectRange": "ONLY_DISTANCE_FIGHT"
+				"effectRange" : "ONLY_DISTANCE_FIGHT"
 			},
-			"noMorale" :
-			{
+			"noMorale" : {
 				"type" : "NO_MORALE"
 			},
-			"shooter" :
-			{
+			"shooter" : {
 				"type" : "SHOOTER"
-			},			
-			"freeShooting" :
-			{
+			},
+			"freeShooting" : {
 				"type" : "FREE_SHOOTING"
-			},		
-			"farShooting" :
-			{
+			},
+			"farShooting" : {
 				"type" : "NO_DISTANCE_PENALTY"
 			},
-//			"immovable" :
-//			{
-//				"type" : "ENCHANTED",
-//				"subtype" : "immovable"
-//			},			
-			"immovable" :
-			{
+			//			"immovable" :
+			//			{
+			//				"type" : "ENCHANTED",
+			//				"subtype" : "immovable"
+			//			},
+			"immovable" : {
 				"type" : "STACKS_SPEED",
 				"val" : 0,
 				"addInfo" : -100
-			}								
+			}
 		},
-		"graphics" :
-		{
-			"animation": "ballistaTurret.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.8 },
+		"graphics" : {
+			"animation" : "ballistaTurret.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 0.8
+			},
 			"iconLarge" : "CPrL146M",
 			"iconSmall" : "CPrS146M",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
-				"projectile": "SMBALX.DEF",
+			"missile" : {
+				"projectile" : "SMBALX.DEF",
 				"attackClimaxFrame" : 4,
-				"offset" :
-				{
+				"offset" : {
 					"lowerX" : 28,
 					"lowerY" : 3,
 					"middleX" : 62,
@@ -91,17 +90,29 @@
 					"upperX" : 37,
 					"upperY" : -98
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
-			"attack": "BALLWNCE.wav",
-			"shoot": "BALLSHOT.wav",
-			"defend": "BALLWNCE.wav",
-			"killed": "BALLKILL.wav",
-			"move": "BALLWNCE.wav",
-			"wince": "BALLWNCE.wav"
+		"sound" : {
+			"attack" : "BALLWNCE.wav",
+			"shoot" : "BALLSHOT.wav",
+			"defend" : "BALLWNCE.wav",
+			"killed" : "BALLKILL.wav",
+			"move" : "BALLWNCE.wav",
+			"wince" : "BALLWNCE.wav"
 		}
 	}
 }

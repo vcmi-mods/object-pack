@@ -1,48 +1,62 @@
 {
 	"airNode" : {
 		"name" : "Air Node",
-		"handler": "configurable",
+		"handler" : "configurable",
 		"types" : {
-			"airNode" :
-			{
+			"airNode" : {
 				"name" : "Air Node",
 				"rmg" : {
-					"value"		: 3500,
-					"rarity"	: 100,
+					"value" : 3500,
+					"rarity" : 100,
 					"mapLimit" : 50
 				},
 				"sounds" : {
-					"ambient" : ["LOOPSHRIN"],
-					"visit" : ["TEMPLE"]
+					"ambient" : [
+						"LOOPSHRIN"
+					],
+					"visit" : [
+						"TEMPLE"
+					]
 				},
 				"description" : "(+20% to Air Magic damage once per hero)",
-				"rewards" : 
-				[	
+				"rewards" : [
 					{
 						"bonuses" : [
-                            {
-                                "type" : "SPELL_DAMAGE",
+							{
+								"type" : "SPELL_DAMAGE",
 								"subtype" : "spellSchool.air",
-                                "val" : 20,
-                                "valueType" : "BASE_NUMBER",
-                                "duration" : "PERMANENT"
-                            } ],
-						"message": "{Air Node}\r\n\r\nYou come across a crystal formation shining among the rocks, which appears to be a node of magic. You drain the power from it, realizing that your air spells will now be more potent."
+								"val" : 20,
+								"valueType" : "BASE_NUMBER",
+								"duration" : "PERMANENT"
+							}
+						],
+						"message" : "{Air Node}\r\n\r\nYou come across a crystal formation shining among the rocks, which appears to be a node of magic. You drain the power from it, realizing that your air spells will now be more potent."
 					}
 				],
-				"onVisitedMessage": "{Air Node}\r\n\r\nYou already visited that node",
+				"onVisitedMessage" : "{Air Node}\r\n\r\nYou already visited that node",
 				"visitMode" : "hero",
-				"templates" :
-				{
-					"default" :
-					{
-						"animation" : "sf1474", 
-						"mask" : [ "VVV", "VBBB", "VBAB"], 
-						"visitableFrom" : [ "---", "+++", "+++" ],
-						"allowedTerrains": [ "snow", "grass", "rough", "sand"]
+				"templates" : {
+					"default" : {
+						"animation" : "sf1474",
+						"mask" : [
+							"VVV",
+							"VBBB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow",
+							"grass",
+							"rough",
+							"sand"
+						]
 					}
 				}
 			}
 		}
-	}		
+	}
 }

@@ -1,52 +1,105 @@
 {
-	"core:creatureBank" : 
-	{
-		"types" : 
-		{
-			"abaddonColumn" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"abaddonColumn" : {
 				"name" : "Abaddon Column",
 				"templates" : {
-					"base" : { 
-					"animation" : "TPSW_BMR", 
-					"visitableFrom" : [ "+++", "+++", "+++" ], 
-					"mask" : [ "VVVV", "VBV", "VBBV", "VBAV"],
-					"allowedTerrains": [ "subterra", "dirt", "lava" ] 
+					"base" : {
+						"animation" : "TPSW_BMR",
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VBV",
+							"VBBV",
+							"VBAV"
+						],
+						"allowedTerrains" : [
+							"subterra",
+							"dirt",
+							"lava"
+						]
 					}
 				},
 				"rmg" : {
-					"value"		: 2500,
-					"rarity"	: 100
+					"value" : 2500,
+					"rarity" : 100
 				},
 				"onGuardedMessage" : "You have found an Abaddon Column. You subconsciously sense that the danger lurking in it is much greater than it seems at first glance. Do you wish to attack the guards?",
 				"onVisitedMessage" : 33,
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",
-				"rewards": [
-				{
-					"message" : 34,
-					"appearChance" : { "min" : 0, "max" : 100 },
-					"guards": [
-							{ "amount": 3, "type" : "powerLichBoss" },
-							{ "amount": 20, "type" : "magogMinion" },
-							{ "amount": 3, "type" : "powerLichBoss" },
-							{ "amount": 20, "type" : "magogMinion" },
-							{ "amount": 30, "type" : "familiarMinion" },
-							{ "amount": 30, "type" : "familiarMinion" }
-					],
-					"resources": 
+				"rewards" : [
 					{
-						"gold" : 8000,
-						"ore" : 12,
-						"wood" : 12,
-						"crystal" : 8,
-						"sulfur" : 8,
-						"gems" : 8,
-						"mercury" : 8
-					},
-					"artifacts": [ { "class" : "TREASURE" }, { "class" : "MINOR" }, { "class" : "MAJOR" }, { "class" : "RELIC" }  ],
-					"spells" : [ { "level" : 3 }, { "level" : 4 }, { "level" : 5 } ]
+						"message" : 34,
+						"appearChance" : {
+							"min" : 0,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 3,
+								"type" : "powerLichBoss"
+							},
+							{
+								"amount" : 20,
+								"type" : "magogMinion"
+							},
+							{
+								"amount" : 3,
+								"type" : "powerLichBoss"
+							},
+							{
+								"amount" : 20,
+								"type" : "magogMinion"
+							},
+							{
+								"amount" : 30,
+								"type" : "familiarMinion"
+							},
+							{
+								"amount" : 30,
+								"type" : "familiarMinion"
+							}
+						],
+						"resources" : {
+							"gold" : 8000,
+							"ore" : 12,
+							"wood" : 12,
+							"crystal" : 8,
+							"sulfur" : 8,
+							"gems" : 8,
+							"mercury" : 8
+						},
+						"artifacts" : [
+							{
+								"class" : "TREASURE"
+							},
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "RELIC"
+							}
+						],
+						"spells" : [
+							{
+								"level" : 3
+							},
+							{
+								"level" : 4
+							},
+							{
+								"level" : 5
+							}
+						]
 					}
 				]
 			}

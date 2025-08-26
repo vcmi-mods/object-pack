@@ -1,68 +1,67 @@
 {
-	"powerLichBoss" :
-	{
+	"powerLichBoss" : {
 		"special" : true,
-		"advMapAmount" : {"max" : 1, "min" : 1},
+		"advMapAmount" : {
+			"max" : 1,
+			"min" : 1
+		},
 		"aiValue" : 623,
 		"attack" : 35,
-		"cost" : { "gold" : 40000 },
-		"damage" : {"max" : 60, "min" : 60},
+		"cost" : {
+			"gold" : 40000
+		},
+		"damage" : {
+			"max" : 60,
+			"min" : 60
+		},
 		"defense" : 30,
 		"faction" : "inferno",
 		"fightValue" : 600,
 		"growth" : 0,
 		"hitPoints" : 100,
-        "doubleWide" : false,
+		"doubleWide" : false,
 		"level" : 7,
 		"shots" : 24,
 		"speed" : 18,
-		"name" : { "plural" : "Power Liches", "singular" : "Power Lich" },
-		"abilities":
-		{
-			"shooter" :
-			{
+		"name" : {
+			"plural" : "Power Liches",
+			"singular" : "Power Lich"
+		},
+		"abilities" : {
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"deathCloud" :
-			{
+			"deathCloud" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.deathCloud"
 			},
-			"casts" :
-			{
+			"casts" : {
 				"type" : "CASTS",
 				"val" : 5
 			},
-			"castsClone" :
-			{
+			"castsClone" : {
 				"type" : "ENCHANTER",
 				"subtype" : "spell.clone",
 				"val" : 3,
 				"addInfo" : 1
 			},
-			"clonePower" :
-			{
+			"clonePower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 500
 			},
-			"noMorale" :
-			{
+			"noMorale" : {
 				"type" : "NO_MORALE"
 			},
-			"noLuck" :
-			{
+			"noLuck" : {
 				"type" : "NO_LUCK"
 			}
 		},
-		"graphics" :
-		{
-			"animation": "CPLICH.DEF",
-			"missile" :
-			{
-				"projectile": "PLICH.DEF",
+		"graphics" : {
+			"animation" : "CPLICH.DEF",
+			"missile" : {
+				"projectile" : "PLICH.DEF",
 				"attackClimaxFrame" : 4,
-				"offset" :
-				{
+				"offset" : {
 					"lowerX" : 28,
 					"lowerY" : 3,
 					"middleX" : 62,
@@ -70,21 +69,37 @@
 					"upperX" : 37,
 					"upperY" : -98
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			},
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.8 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 0.8
+			},
 			"iconLarge" : "CPrL065N",
 			"iconSmall" : "CPrS065N",
 			"timeBetweenFidgets" : 1
 		},
-		"sound" :
-		{
-			"attack": "PLCHATTK.wav",
-			"defend": "PLCHDFND.wav",
-			"killed": "PLCHKILL.wav",
-			"move": "PLCHMOVE.wav",
-			"shoot": "PLCHSHOT.wav",
-			"wince": "PLCHWNCE.wav"
+		"sound" : {
+			"attack" : "PLCHATTK.wav",
+			"defend" : "PLCHDFND.wav",
+			"killed" : "PLCHKILL.wav",
+			"move" : "PLCHMOVE.wav",
+			"shoot" : "PLCHSHOT.wav",
+			"wince" : "PLCHWNCE.wav"
 		}
 	}
 }

@@ -1,56 +1,63 @@
 {
-	"familiarMinion" :
-	{
+	"familiarMinion" : {
 		"special" : true,
-		"advMapAmount" : {"max" : 1, "min" : 1},
+		"advMapAmount" : {
+			"max" : 1,
+			"min" : 1
+		},
 		"aiValue" : 623,
 		"attack" : 12,
-		"cost" : { "gold" : 40000 },
-		"damage" : {"max" : 14, "min" : 11},
+		"cost" : {
+			"gold" : 40000
+		},
+		"damage" : {
+			"max" : 14,
+			"min" : 11
+		},
 		"defense" : 13,
 		"faction" : "inferno",
 		"fightValue" : 600,
 		"growth" : 0,
 		"hitPoints" : 45,
-        "doubleWide" : false,
+		"doubleWide" : false,
 		"level" : 5,
 		"speed" : 9,
-		"name" : { "plural" : "Familiars", "singular" : "Familiar" },
-		"abilities":
-		{
-			"manaChannel" :
-			{
+		"name" : {
+			"plural" : "Familiars",
+			"singular" : "Familiar"
+		},
+		"abilities" : {
+			"manaChannel" : {
 				"type" : "MANA_CHANNELING",
 				"val" : 40
 			},
-			"unlimitedRetal" :
-			{
+			"unlimitedRetal" : {
 				"type" : "UNLIMITED_RETALIATIONS"
 			},
-			"noMorale" :
-			{
+			"noMorale" : {
 				"type" : "NO_MORALE"
 			},
-			"noLuck" :
-			{
+			"noLuck" : {
 				"type" : "NO_LUCK"
 			}
 		},
-		"graphics" :
-		{
-			"animation": "CFAMIL.DEF",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.8 },
+		"graphics" : {
+			"animation" : "CFAMIL.DEF",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 0.8
+			},
 			"iconLarge" : "CPrL043I",
 			"iconSmall" : "CPrS043I",
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
-		"sound" :
-		{
-			"attack": "FMLRATTK.wav",
-			"defend": "FMLRDFND.wav",
-			"killed": "FMLRKILL.wav",
-			"move": "FMLRMOVE.wav",
-			"wince": "FMLRWNCE.wav"
+		"sound" : {
+			"attack" : "FMLRATTK.wav",
+			"defend" : "FMLRDFND.wav",
+			"killed" : "FMLRKILL.wav",
+			"move" : "FMLRMOVE.wav",
+			"wince" : "FMLRWNCE.wav"
 		}
 	}
 }

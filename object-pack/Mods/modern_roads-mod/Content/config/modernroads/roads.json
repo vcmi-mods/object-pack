@@ -1,30 +1,26 @@
 {
-	"railRoad":
-    {
-        "shortIdentifier": "mt", 
-        "tilesFilename": "modern_roads/cobbrd",
-        "moveCost": 80,
-		"text": "Railroad"
-    },
-	"railRoad2":
-    {
-         "shortIdentifier": "mr", 
-        "tilesFilename": "modern_roads/cobbrd2",
-        "moveCost": 80,
-		"text": "Railroad"
-    },
-    "autobannRoad":
-    {
-         "shortIdentifier": "mw", 
-        "tilesFilename": "modern_roads/dirtrd",
-        "moveCost": 50,
-		"text": "Highway"
-    },
-    "asphaltRoad":
-    {
-        "shortIdentifier": "ma",
-        "tilesFilename": "modern_roads/gravrd",
-        "moveCost": 70,
-		"text":"Asphalt Road"
-    }
+	"railRoad" : {
+		"shortIdentifier" : "mt",
+		"tilesFilename" : "modern_roads/cobbrd",
+		"moveCost" : 80,
+		"text" : "Railroad"
+	},
+	"railRoad2" : {
+		"shortIdentifier" : "mr",
+		"tilesFilename" : "modern_roads/cobbrd2",
+		"moveCost" : 80,
+		"text" : "Railroad"
+	},
+	"autobannRoad" : {
+		"shortIdentifier" : "mw",
+		"tilesFilename" : "modern_roads/dirtrd",
+		"moveCost" : 50,
+		"text" : "Highway"
+	},
+	"asphaltRoad" : {
+		"shortIdentifier" : "ma",
+		"tilesFilename" : "modern_roads/gravrd",
+		"moveCost" : 70,
+		"text" : "Asphalt Road"
+	}
 }

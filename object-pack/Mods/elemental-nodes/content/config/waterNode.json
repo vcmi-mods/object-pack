@@ -1,48 +1,62 @@
 {
 	"waterNode" : {
 		"name" : "Water Node",
-		"handler": "configurable",
+		"handler" : "configurable",
 		"types" : {
-			"waterNode" :
-			{
+			"waterNode" : {
 				"name" : "Water Node",
 				"rmg" : {
-					"value"		: 3500,
-					"rarity"	: 100,
+					"value" : 3500,
+					"rarity" : 100,
 					"mapLimit" : 50
 				},
 				"sounds" : {
-					"ambient" : ["LOOPSHRIN"],
-					"visit" : ["TEMPLE"]
+					"ambient" : [
+						"LOOPSHRIN"
+					],
+					"visit" : [
+						"TEMPLE"
+					]
 				},
 				"description" : "(+20% to Water Magic damage once per hero)",
-				"rewards" :
-				[	
+				"rewards" : [
 					{
 						"bonuses" : [
-                            {
-                                "type" : "SPELL_DAMAGE",
+							{
+								"type" : "SPELL_DAMAGE",
 								"subtype" : "spellSchool.water",
-                                "val" : 20,
-                                "valueType" : "BASE_NUMBER",
-                                "duration" : "PERMANENT"
-                            } ],
-						"message": "{Water Node}\r\n\r\nYou come across a crystal formation shining among the rocks, which appears to be a node of magic. You drain the power from it, realizing that your water spells will now be more potent."
+								"val" : 20,
+								"valueType" : "BASE_NUMBER",
+								"duration" : "PERMANENT"
+							}
+						],
+						"message" : "{Water Node}\r\n\r\nYou come across a crystal formation shining among the rocks, which appears to be a node of magic. You drain the power from it, realizing that your water spells will now be more potent."
 					}
 				],
-				"onVisitedMessage": "{Water Node}\r\n\r\nYou already visited that node",
+				"onVisitedMessage" : "{Water Node}\r\n\r\nYou already visited that node",
 				"visitMode" : "hero",
-				"templates" :
-				{
-					"default" :
-					{
-						"animation" : "sf1481", 
-						"mask" : [ "VVV", "VBBB", "VBAB"], 
-						"visitableFrom" : [ "---", "+++", "+++" ],
-						"allowedTerrains": [ "grass", "swamp", "snow", "water"]
+				"templates" : {
+					"default" : {
+						"animation" : "sf1481",
+						"mask" : [
+							"VVV",
+							"VBBB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"grass",
+							"swamp",
+							"snow",
+							"water"
+						]
 					}
 				}
 			}
 		}
-	}		
+	}
 }

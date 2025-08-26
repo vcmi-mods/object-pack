@@ -5,25 +5,50 @@
 	"version" : "1.1.2",
 	"contact" : "https://discord.gg/chBT42V",
 	"modType" : "Objects",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.6.0"
 	},
-	"changelog" :
-	{
-                "1.1.2"   : [ "Modern Roads fix" ],
-                "1.1.1"   : [ "Updated polish translation" ],
-		"1.1.0"   : [ "Central warehouse fix" ],
-		"1.0.9"   : [ "Updated polish translation" ],
-		"1.0.8"   : [ "Updated Czech translation", "Fixed Enahnced Ballista bank settings" ],
-		"1.0.7"   : [ "Enhanced Ballista bank by George King" ],
-		"1.0.6"   : [ "Updated Czech translation" ],
-		"1.0.5"   : [ "Mod reorganisation with submods" ],
-		"1.0.4"   : [ "Polish translation by FallainBlack" ],
-		"1.0.3"   : [ "Czech translation by George King" ],
-		"1.0.2"   : [ "Russian translation by Anton Sergeew" ],
-		"1.0.1"   : [ "Chinese translation" ],
-		"1.0.0"   : [ "Initial release" ]
+	"changelog" : {
+		"1.1.2" : [
+			"Modern Roads fix"
+		],
+		"1.1.1" : [
+			"Updated polish translation"
+		],
+		"1.1.0" : [
+			"Central warehouse fix"
+		],
+		"1.0.9" : [
+			"Updated polish translation"
+		],
+		"1.0.8" : [
+			"Updated Czech translation",
+			"Fixed Enahnced Ballista bank settings"
+		],
+		"1.0.7" : [
+			"Enhanced Ballista bank by George King"
+		],
+		"1.0.6" : [
+			"Updated Czech translation"
+		],
+		"1.0.5" : [
+			"Mod reorganisation with submods"
+		],
+		"1.0.4" : [
+			"Polish translation by FallainBlack"
+		],
+		"1.0.3" : [
+			"Czech translation by George King"
+		],
+		"1.0.2" : [
+			"Russian translation by Anton Sergeew"
+		],
+		"1.0.1" : [
+			"Chinese translation"
+		],
+		"1.0.0" : [
+			"Initial release"
+		]
 	},
 	"conflicts" : [
 		"abaddon-column",

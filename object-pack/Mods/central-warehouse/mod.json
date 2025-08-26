@@ -5,8 +5,7 @@
 	"author" : "Warmonger, Andruids (graphics)",
 	"contact" : "",
 	"modType" : "Objects",
-    "objects" :
-    [ 
+	"objects" : [
 		"config/centralWarehouse"
 	],
 	"chinese" : {
@@ -21,15 +20,21 @@
 		"name" : "Centrální skladiště",
 		"description" : "Centrální skladiště"
 	},
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.4.0"
 	},
-	"changelog" :
-    {
-		"1.0.3"   : [ "Czech translation by George King" ],
-		"1.0.2"   : [ "Russian translation by Anton Sergeew" ],
-		"1.0.1"   : [ "Chinese translation" ],
-		"1.0.0"   : [ "Initial release" ]
-    }
+	"changelog" : {
+		"1.0.3" : [
+			"Czech translation by George King"
+		],
+		"1.0.2" : [
+			"Russian translation by Anton Sergeew"
+		],
+		"1.0.1" : [
+			"Chinese translation"
+		],
+		"1.0.0" : [
+			"Initial release"
+		]
+	}
 }

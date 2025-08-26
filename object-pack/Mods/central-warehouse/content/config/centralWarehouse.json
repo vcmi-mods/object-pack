@@ -1,53 +1,59 @@
 {
-	"warehouse" :{	
-		"name": "Central Warehouse",
-		"handler": "configurable",
+	"warehouse" : {
+		"name" : "Central Warehouse",
+		"handler" : "configurable",
 		"types" : {
-			"centralWarehouse" : 
-			{
-				"name": "Central Warehouse",
+			"centralWarehouse" : {
+				"name" : "Central Warehouse",
 				"rmg" : {
-					"value"		: 22500, //2250 x 2 + 2083 x 4 + 15000 = 27833, however it's less useful in endgame
-					"rarity"	: 15,
+					"value" : 22500, //2250 x 2 + 2083 x 4 + 15000 = 27833, however it's less useful in endgame
+					"rarity" : 15,
 					"zoneLimit" : 1
 				},
-				"sounds": {
-                    "ambient" : ["LOOPMILL"],
-                    "visit" : ["GENIE"]
+				"sounds" : {
+					"ambient" : [
+						"LOOPMILL"
+					],
+					"visit" : [
+						"GENIE"
+					]
 				},
-				"rewards" :
-				[
+				"rewards" : [
 					{
-						"resources":
-                        {
-                            "wood": 10,
-                            "ore": 10,
-                            "mercury": 5,
-                            "sulfur": 5,
-                            "crystal" : 5,
-                            "gems": 5,
-                            "gold": 5000
-                        },
-						"message": "{Central Warehouse}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all the resources from the nearby production points for you. Come next week for the new portion!'"
+						"resources" : {
+							"wood" : 10,
+							"ore" : 10,
+							"mercury" : 5,
+							"sulfur" : 5,
+							"crystal" : 5,
+							"gems" : 5,
+							"gold" : 5000
+						},
+						"message" : "{Central Warehouse}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all the resources from the nearby production points for you. Come next week for the new portion!'"
 					}
 				],
-				"onVisitedMessage": "{Central Warehouse}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, we are empty. Please, return next week!'",
-				"resetParameters" :
-                {
+				"onVisitedMessage" : "{Central Warehouse}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, we are empty. Please, return next week!'",
+				"resetParameters" : {
 					"period" : 7,
 					"visitors" : true
 				},
 				"visitMode" : "once",
-				"templates" : 
-				{
-                    "zobj037" :
-                    {
-                        "animation" : "objects/CentralWarehouse.def",
-                        "mask" : [ "VVVVV", "VVBBB", "VVBBA" ],
-						"visitableFrom" : [ "---", "-++", "+++" ]
+				"templates" : {
+					"zobj037" : {
+						"animation" : "objects/CentralWarehouse.def",
+						"mask" : [
+							"VVVVV",
+							"VVBBB",
+							"VVBBA"
+						],
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						]
 					}
 				}
 			}
-        }
-    }
+		}
+	}
 }

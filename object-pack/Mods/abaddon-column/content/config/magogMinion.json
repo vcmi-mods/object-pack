@@ -1,61 +1,66 @@
 {
-	"magogMinion" :
-	{
+	"magogMinion" : {
 		"special" : true,
-		"advMapAmount" : {"max" : 1, "min" : 1},
+		"advMapAmount" : {
+			"max" : 1,
+			"min" : 1
+		},
 		"aiValue" : 623,
 		"attack" : 13,
-		"cost" : { "gold" : 40000 },
-		"damage" : {"max" : 15, "min" : 10},
+		"cost" : {
+			"gold" : 40000
+		},
+		"damage" : {
+			"max" : 15,
+			"min" : 10
+		},
 		"defense" : 11,
 		"faction" : "inferno",
 		"fightValue" : 600,
 		"growth" : 0,
 		"hitPoints" : 65,
-        "doubleWide" : false,
+		"doubleWide" : false,
 		"level" : 5,
 		"shots" : 12,
 		"speed" : 5,
-		"name" : { "plural" : "Magogs", "singular" : "Magog" },
-		"abilities":
-		{
-			"shooter" :
-			{
+		"name" : {
+			"plural" : "Magogs",
+			"singular" : "Magog"
+		},
+		"abilities" : {
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"fireball" :
-			{
+			"fireball" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.fireball"
 			},
-			"fourShots" :
-			{
+			"fourShots" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 3,
-				"effectRange": "ONLY_DISTANCE_FIGHT" 
+				"effectRange" : "ONLY_DISTANCE_FIGHT"
 			},
-			"noMorale" :
-			{
+			"noMorale" : {
 				"type" : "NO_MORALE"
 			},
-			"noLuck" :
-			{
+			"noLuck" : {
 				"type" : "NO_LUCK"
 			}
 		},
-		"graphics" :
-		{
-			"animation": "CMAGOG.DEF",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.8 },
+		"graphics" : {
+			"animation" : "CMAGOG.DEF",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 0.8
+			},
 			"iconLarge" : "CPrL045I",
 			"iconSmall" : "CPrS045I",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
-				"projectile": "CPRGOGX.DEF",
+			"missile" : {
+				"projectile" : "CPRGOGX.DEF",
 				"attackClimaxFrame" : 4,
-				"offset" :
-				{
+				"offset" : {
 					"lowerX" : 28,
 					"lowerY" : 3,
 					"middleX" : 62,
@@ -63,17 +68,29 @@
 					"upperX" : 37,
 					"upperY" : -98
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
-			"attack": "MGOGATTK.wav",
-			"defend": "MGOGDFND.wav",
-			"killed": "MGOGKILL.wav",
-			"move": "MGOGMOVE.wav",
-			"shoot": "SPONTCOMB.wav",
-			"wince": "MGOGWNCE.wav"
+		"sound" : {
+			"attack" : "MGOGATTK.wav",
+			"defend" : "MGOGDFND.wav",
+			"killed" : "MGOGKILL.wav",
+			"move" : "MGOGMOVE.wav",
+			"shoot" : "SPONTCOMB.wav",
+			"wince" : "MGOGWNCE.wav"
 		}
 	}
 }

@@ -1,48 +1,62 @@
 {
 	"fireNode" : {
 		"name" : "Fire Node",
-		"handler": "configurable",
+		"handler" : "configurable",
 		"types" : {
-			"fireNode" :
-			{
+			"fireNode" : {
 				"name" : "Fire Node",
 				"rmg" : {
-					"value"		: 3500,
-					"rarity"	: 100,
+					"value" : 3500,
+					"rarity" : 100,
 					"mapLimit" : 50
 				},
 				"sounds" : {
-					"ambient" : ["LOOPSHRIN"],
-					"visit" : ["TEMPLE"]
+					"ambient" : [
+						"LOOPSHRIN"
+					],
+					"visit" : [
+						"TEMPLE"
+					]
 				},
 				"description" : "(+20% to Fire Magic damage once per hero)",
-				"rewards" :
-				[	
+				"rewards" : [
 					{
 						"bonuses" : [
-                            {
-                                "type" : "SPELL_DAMAGE",
+							{
+								"type" : "SPELL_DAMAGE",
 								"subtype" : "spellSchool.fire",
-                                "val" : 20,
-                                "valueType" : "BASE_NUMBER",
-                                "duration" : "PERMANENT"
-                            } ],
-						"message": "{Fire Node}\r\n\r\nYou come across a crystal formation shining among the rocks, which appears to be a node of magic. You drain the power from it, realizing that your fire magic spells will now be more potent."
+								"val" : 20,
+								"valueType" : "BASE_NUMBER",
+								"duration" : "PERMANENT"
+							}
+						],
+						"message" : "{Fire Node}\r\n\r\nYou come across a crystal formation shining among the rocks, which appears to be a node of magic. You drain the power from it, realizing that your fire magic spells will now be more potent."
 					}
 				],
-				"onVisitedMessage": "{Fire Node}\r\n\r\nYou already visited that node",
+				"onVisitedMessage" : "{Fire Node}\r\n\r\nYou already visited that node",
 				"visitMode" : "hero",
-				"templates" :
-				{
-					"default" :
-					{
-						"animation" : "sf1480", 
-						"mask" : [ "VVV", "VBBB", "BAB"], 
-						"visitableFrom" : [ "---", "+++", "+++" ],
-						"allowedTerrains": [ "sand", "lava", "rough", "dirt"]
+				"templates" : {
+					"default" : {
+						"animation" : "sf1480",
+						"mask" : [
+							"VVV",
+							"VBBB",
+							"BAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"sand",
+							"lava",
+							"rough",
+							"dirt"
+						]
 					}
 				}
 			}
 		}
-	}		
+	}
 }

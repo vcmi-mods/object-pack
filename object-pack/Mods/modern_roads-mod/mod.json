@@ -1,16 +1,15 @@
 {
 	"name" : "Modern Roads",
 	"description" : "Modern Roads (Railway, Highway, Asphalt Road)",
-	"version":"0.0.2",
-	"author":"Macron1",
-	"contact":"none",
-	"modType":"Graphical",
+	"version" : "0.0.2",
+	"author" : "Macron1",
+	"contact" : "none",
+	"modType" : "Graphical",
 	"keepDisabled" : true,
 	"conflicts" : [
 		"pvp-balance"
 	],
-	"roads" :
-	[
+	"roads" : [
 		"config/modernroads/roads.json"
 	],
 	"chinese" : {

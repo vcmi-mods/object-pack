@@ -1,183 +1,426 @@
 {
-	"core:creatureBank": {
-		"types": {
-			"ballistaBank": {
-				"name": "Old Shooting Range",
-				"templates": {
-					"base": {
-						"animation": "ShootRange",
-						"mask": ["VVVVV", "VVBBB", "VVBBA"],
-						"visitableFrom": ["---", "-++", "+++"]
+	"core:creatureBank" : {
+		"types" : {
+			"ballistaBank" : {
+				"name" : "Old Shooting Range",
+				"templates" : {
+					"base" : {
+						"animation" : "ShootRange",
+						"mask" : [
+							"VVVVV",
+							"VVBBB",
+							"VVBBA"
+						],
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						]
 					}
 				},
 				"aiValue" : 11000,
-				"rmg": {
-					"value": 10000,
-					"rarity": 100
+				"rmg" : {
+					"value" : 10000,
+					"rarity" : 100
 				},
-				"onGuardedMessage": "An old archery range lies ahead, haunted by skilled archers who guard its treasures. Will you challenge their precision for a chance at the loot?",
-				"onVisitedMessage": "The archery range lies silent, its guardians defeated and its treasures claimed. There is nothing left to find here.",
-				"visitMode": "once",
-				"selectMode": "selectFirst",
-				"guardsLayout": "creatureBankBallistaBank",
+				"onGuardedMessage" : "An old archery range lies ahead, haunted by skilled archers who guard its treasures. Will you challenge their precision for a chance at the loot?",
+				"onVisitedMessage" : "The archery range lies silent, its guardians defeated and its treasures claimed. There is nothing left to find here.",
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankBallistaBank",
 
-				"rewards": [
+				"rewards" : [
 					// Level 7
 					{
 						"message" : "You explored the abandoned training grounds, finding precious loot that was fiercely protected by the strongest guardians.",
-						"appearChance": { "min": 85, "max": 100 },
-						"guards": [
-							{ "amount": 15, "type": "titan" },
-							{ "amount": 40, "type": "archMage" },
-							{ "amount": 15, "type": "powerLich" },
-							{ "amount": 40, "type": "sharpshooter" },
-							{ "amount": 15, "type": "cyclopKing" },
-							{ "amount": 40, "type": "orcChieftain" },
-							{ "amount": 40, "type": "mage" }
+						"appearChance" : {
+							"min" : 85,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 15,
+								"type" : "titan"
+							},
+							{
+								"amount" : 40,
+								"type" : "archMage"
+							},
+							{
+								"amount" : 15,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 40,
+								"type" : "sharpshooter"
+							},
+							{
+								"amount" : 15,
+								"type" : "cyclopKing"
+							},
+							{
+								"amount" : 40,
+								"type" : "orcChieftain"
+							},
+							{
+								"amount" : 40,
+								"type" : "mage"
+							}
 						],
-						"resources": {
-							"gold": 10000,
-							"ore": 25,
-							"wood": 25,
+						"resources" : {
+							"gold" : 10000,
+							"ore" : 25,
+							"wood" : 25,
 							"mercury" : 15,
 							"sulfur" : 15,
 							"crystals" : 15,
 							"gems" : 15
 						},
-						"heroExperience": 15000,
-						"artifacts": [ { "class": "RELIC" }, { "class": "RELIC" },{ "class": "RELIC" }, { "class": "RELIC" },]
+						"heroExperience" : 15000,
+						"artifacts" : [
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							}
+						]
 					},
 					// Level 6
 					{
-						"message": "With the last guardian defeated, you uncover a stash of magical items left behind by the fallen defenders.",
-						"appearChance": { "min": 70, "max": 85 },
-						"guards": [
-							{ "amount": 10, "type": "powerLich" },
-							{ "amount": 35, "type": "orcChieftain" },
-							{ "amount": 10, "type": "cyclop" },
-							{ "amount": 35, "type": "orc" },
-							{ "amount": 35, "type": "medusaQueen" },
-							{ "amount": 35, "type": "evilEye" },
-							{ "amount": 35, "type": "beholder" }
+						"message" : "With the last guardian defeated, you uncover a stash of magical items left behind by the fallen defenders.",
+						"appearChance" : {
+							"min" : 70,
+							"max" : 85
+						},
+						"guards" : [
+							{
+								"amount" : 10,
+								"type" : "powerLich"
+							},
+							{
+								"amount" : 35,
+								"type" : "orcChieftain"
+							},
+							{
+								"amount" : 10,
+								"type" : "cyclop"
+							},
+							{
+								"amount" : 35,
+								"type" : "orc"
+							},
+							{
+								"amount" : 35,
+								"type" : "medusaQueen"
+							},
+							{
+								"amount" : 35,
+								"type" : "evilEye"
+							},
+							{
+								"amount" : 35,
+								"type" : "beholder"
+							}
 						],
-						"resources": {
-							"gold": 8000,
-							"ore": 20,
-							"wood": 20,
+						"resources" : {
+							"gold" : 8000,
+							"ore" : 20,
+							"wood" : 20,
 							"mercury" : 10,
 							"sulfur" : 10,
 							"crystals" : 10
 						},
-						"heroExperience": 12000,
-						"artifacts": [ { "class": "RELIC" }, { "class": "RELIC" }, { "class": "MAJOR" }, { "class": "MAJOR" }]
+						"heroExperience" : 12000,
+						"artifacts" : [
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "MAJOR"
+							}
+						]
 					},
 					// Level 5
 					{
-						"message": "Victory brings rewards, and you collect treasures scattered across the abandoned grounds.",
-						"appearChance": { "min": 50, "max": 70 },
-						"guards": [
-							{ "amount": 30, "type": "stormElemental" },
-							{ "amount": 30, "type": "iceElemental" },
-							{ "amount": 30, "type": "zealot" },
-							{ "amount": 30, "type": "monk" },
-							{ "amount": 30, "type": "lizardWarrior" },
-							{ "amount": 30, "type": "magog" },
-							{ "amount": 30, "type": "gog" }
+						"message" : "Victory brings rewards, and you collect treasures scattered across the abandoned grounds.",
+						"appearChance" : {
+							"min" : 50,
+							"max" : 70
+						},
+						"guards" : [
+							{
+								"amount" : 30,
+								"type" : "stormElemental"
+							},
+							{
+								"amount" : 30,
+								"type" : "iceElemental"
+							},
+							{
+								"amount" : 30,
+								"type" : "zealot"
+							},
+							{
+								"amount" : 30,
+								"type" : "monk"
+							},
+							{
+								"amount" : 30,
+								"type" : "lizardWarrior"
+							},
+							{
+								"amount" : 30,
+								"type" : "magog"
+							},
+							{
+								"amount" : 30,
+								"type" : "gog"
+							}
 						],
-						"resources": {
-							"gold": 6000,
-							"ore": 15,
-							"wood": 15,
+						"resources" : {
+							"gold" : 6000,
+							"ore" : 15,
+							"wood" : 15,
 							"mercury" : 7,
 							"sulfur" : 7
 						},
-						"heroExperience": 10000,
-						"artifacts": [ { "class": "MINOR" },  { "class": "MINOR" }, { "class": "MAJOR" }, { "class": "MAJOR" }]
+						"heroExperience" : 10000,
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "MAJOR"
+							}
+						]
 					},
 					// Level 4
 					{
-						"message": "With the training ground now deserted, you gather the remaining treasures left behind by the defeated guards.",
-						"appearChance": { "min": 30, "max": 50 },
-						"guards": [
-							{ "amount": 25, "type": "medusaQueen" },
-							{ "amount": 25, "type": "evilEye" },
-							{ "amount": 25, "type": "beholder" },
-							{ "amount": 25, "type": "lizardWarrior" },
-							{ "amount": 25, "type": "lizardman" },
-							{ "amount": 25, "type": "magog" },
-							{ "amount": 25, "type": "gog" }
+						"message" : "With the training ground now deserted, you gather the remaining treasures left behind by the defeated guards.",
+						"appearChance" : {
+							"min" : 30,
+							"max" : 50
+						},
+						"guards" : [
+							{
+								"amount" : 25,
+								"type" : "medusaQueen"
+							},
+							{
+								"amount" : 25,
+								"type" : "evilEye"
+							},
+							{
+								"amount" : 25,
+								"type" : "beholder"
+							},
+							{
+								"amount" : 25,
+								"type" : "lizardWarrior"
+							},
+							{
+								"amount" : 25,
+								"type" : "lizardman"
+							},
+							{
+								"amount" : 25,
+								"type" : "magog"
+							},
+							{
+								"amount" : 25,
+								"type" : "gog"
+							}
 						],
-						"resources": {
-							"gold": 5000,
-							"ore": 10,
-							"wood": 10,
+						"resources" : {
+							"gold" : 5000,
+							"ore" : 10,
+							"wood" : 10,
 							"mercury" : 5
 						},
-						"heroExperience": 7000,
-						"artifacts": [{ "class": "MINOR" }, { "class": "MINOR" }, { "class": "MAJOR" }]
+						"heroExperience" : 7000,
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MAJOR"
+							}
+						]
 					},
 					// Level 3
 					{
-						"message": "The defeated guards have left behind a modest cache of items, which you eagerly gather.",
-						"appearChance": { "min": 20, "max": 30 },
-						"guards": [
-							{ "amount": 20, "type": "grandElf" },
-							{ "amount": 20, "type": "woodElf" },
-							{ "amount": 20, "type": "marksman" },
-							{ "amount": 20, "type": "archer" },
-							{ "amount": 20, "type": "masterGremlin" },
-							{ "amount": 20, "type": "stormElemental" },
-							{ "amount": 20, "type": "iceElemental" }
-						],
-						"resources": {
-							"gold": 4000,
-							"ore": 10,
-							"wood": 10
+						"message" : "The defeated guards have left behind a modest cache of items, which you eagerly gather.",
+						"appearChance" : {
+							"min" : 20,
+							"max" : 30
 						},
-						"heroExperience": 4000,
-						"artifacts": [{ "class": "MINOR" },{ "class": "MINOR" }]
+						"guards" : [
+							{
+								"amount" : 20,
+								"type" : "grandElf"
+							},
+							{
+								"amount" : 20,
+								"type" : "woodElf"
+							},
+							{
+								"amount" : 20,
+								"type" : "marksman"
+							},
+							{
+								"amount" : 20,
+								"type" : "archer"
+							},
+							{
+								"amount" : 20,
+								"type" : "masterGremlin"
+							},
+							{
+								"amount" : 20,
+								"type" : "stormElemental"
+							},
+							{
+								"amount" : 20,
+								"type" : "iceElemental"
+							}
+						],
+						"resources" : {
+							"gold" : 4000,
+							"ore" : 10,
+							"wood" : 10
+						},
+						"heroExperience" : 4000,
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MINOR"
+							}
+						]
 					},
 					// Level 2
 					{
-						"message": "Among the defeated ranks, you discover a handful of resources that prove useful.",
-						"appearChance": { "min": 10, "max": 20 },
-						"guards": [
-							{ "amount": 15, "type": "marksman" },
-							{ "amount": 15, "type": "archer" },
-							{ "amount": 15, "type": "masterGremlin" },
-							{ "amount": 15, "type": "woodElf" },
-							{ "amount": 15, "type": "gog" },
-							{ "amount": 15, "type": "lizardman" },
-							{ "amount": 15, "type": "stormElemental" }
-						],
-						"resources": {
-							"gold": 3000,
-							"ore": 7,
-							"wood": 7
+						"message" : "Among the defeated ranks, you discover a handful of resources that prove useful.",
+						"appearChance" : {
+							"min" : 10,
+							"max" : 20
 						},
-						"heroExperience": 3000,
-						"artifacts": [ { "class": "TREASURE" }, { "class": "MINOR" }]
+						"guards" : [
+							{
+								"amount" : 15,
+								"type" : "marksman"
+							},
+							{
+								"amount" : 15,
+								"type" : "archer"
+							},
+							{
+								"amount" : 15,
+								"type" : "masterGremlin"
+							},
+							{
+								"amount" : 15,
+								"type" : "woodElf"
+							},
+							{
+								"amount" : 15,
+								"type" : "gog"
+							},
+							{
+								"amount" : 15,
+								"type" : "lizardman"
+							},
+							{
+								"amount" : 15,
+								"type" : "stormElemental"
+							}
+						],
+						"resources" : {
+							"gold" : 3000,
+							"ore" : 7,
+							"wood" : 7
+						},
+						"heroExperience" : 3000,
+						"artifacts" : [
+							{
+								"class" : "TREASURE"
+							},
+							{
+								"class" : "MINOR"
+							}
+						]
 					},
 					// Level 1
 					{
-						"message": "The area has been cleared of low-level defenders, leaving behind basic supplies.",
-						"appearChance": { "min": 0, "max": 10 },
-						"guards": [
-							{ "amount": 10, "type": "masterGremlin" },
-							{ "amount": 10, "type": "marksman" },
-							{ "amount": 10, "type": "archer" },
-							{ "amount": 10, "type": "lizardman" },
-							{ "amount": 10, "type": "gog" },
-							{ "amount": 10, "type": "stormElemental" },
-							{ "amount": 10, "type": "woodElf" }
-						],
-						"resources": {
-							"gold": 2000,
-							"ore": 5,
-							"wood": 5
+						"message" : "The area has been cleared of low-level defenders, leaving behind basic supplies.",
+						"appearChance" : {
+							"min" : 0,
+							"max" : 10
 						},
-						"heroExperience": 2000,
-						"artifacts": [{ "class": "TREASURE" }]
+						"guards" : [
+							{
+								"amount" : 10,
+								"type" : "masterGremlin"
+							},
+							{
+								"amount" : 10,
+								"type" : "marksman"
+							},
+							{
+								"amount" : 10,
+								"type" : "archer"
+							},
+							{
+								"amount" : 10,
+								"type" : "lizardman"
+							},
+							{
+								"amount" : 10,
+								"type" : "gog"
+							},
+							{
+								"amount" : 10,
+								"type" : "stormElemental"
+							},
+							{
+								"amount" : 10,
+								"type" : "woodElf"
+							}
+						],
+						"resources" : {
+							"gold" : 2000,
+							"ore" : 5,
+							"wood" : 5
+						},
+						"heroExperience" : 2000,
+						"artifacts" : [
+							{
+								"class" : "TREASURE"
+							}
+						]
 					}
 				]
 			}

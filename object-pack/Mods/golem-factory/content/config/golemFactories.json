@@ -3,14 +3,25 @@
 		"types" : {
 			"golemFactoryNormal" : {
 				"name" : "Golem Factory",
-				"creatures" : [[ "ironGolem" ]],
+				"creatures" : [
+					[
+						"ironGolem"
+					]
+				],
 				"sounds" : {
-					"ambient" : ["LOOPFACT"]
+					"ambient" : [
+						"LOOPFACT"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "AVGgolm0",
-						"mask" : [ "VVV", "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			}
@@ -20,8 +31,12 @@
 		"types" : {
 			"golemFactory" : {
 				"creatures" : [
-					[ "ironGolem" ],
-					[ "stoneGolem" ]
+					[
+						"ironGolem"
+					],
+					[
+						"stoneGolem"
+					]
 				]
 			}
 		}
